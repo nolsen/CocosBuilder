@@ -50,7 +50,7 @@
 @property (nonatomic,assign) BOOL isDirty;
 @property (nonatomic,assign) CGPoint stageScrollOffset;
 @property (nonatomic,assign) float stageZoom;
-@property (nonatomic,readonly) NSString* rootPath;
+@property (nonatomic,readonly, getter = rootPath) NSString* rootPath;
 - (NSString*) formattedName;
 @property (nonatomic,readonly) NSDictionary* project;
 @end

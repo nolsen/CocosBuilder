@@ -188,6 +188,20 @@
 		A0F17A7015116B4100CE6E92 /* TGAlib.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F17A1C15116B4100CE6E92 /* TGAlib.m */; };
 		A0F17A7115116B4100CE6E92 /* TransformUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F17A1E15116B4100CE6E92 /* TransformUtils.m */; };
 		A0F17A7215116B4100CE6E92 /* ZipUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F17A2215116B4100CE6E92 /* ZipUtils.m */; };
+		B3218BC2151EFA5800F8C616 /* CCBPProperties.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3218BBD151EFA5800F8C616 /* CCBPProperties.plist */; };
+		B3218BC3151EFA5800F8C616 /* CCMenuItemFont-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3218BBE151EFA5800F8C616 /* CCMenuItemFont-Info.plist */; };
+		B3218BC4151EFA5800F8C616 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3218BC0151EFA5800F8C616 /* InfoPlist.strings */; };
+		B3218BC9151F089800F8C616 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7789ABC2133AA82000CEFCC7 /* Cocoa.framework */; };
+		B3218BD4151F091D00F8C616 /* CCMenuItemFont.ccbPlugNode in Copy PlugIns */ = {isa = PBXBuildFile; fileRef = B3218BD0151F089800F8C616 /* CCMenuItemFont.ccbPlugNode */; };
+		B3218BDC151F0D6C00F8C616 /* CCBPProperties.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3218BDA151F0D6B00F8C616 /* CCBPProperties.plist */; };
+		B3218BE0151F0DBC00F8C616 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3218BDE151F0DBC00F8C616 /* InfoPlist.strings */; };
+		B3218BEE151FF87300F8C616 /* CCBPProperties.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3218BE9151FF87300F8C616 /* CCBPProperties.plist */; };
+		B3218BEF151FF87300F8C616 /* CCMenuItemBMFont-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3218BEA151FF87300F8C616 /* CCMenuItemBMFont-Info.plist */; };
+		B3218BF0151FF87300F8C616 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3218BEC151FF87300F8C616 /* InfoPlist.strings */; };
+		B3218BF5151FF92E00F8C616 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7789ABC2133AA82000CEFCC7 /* Cocoa.framework */; };
+		B3218C00151FF96200F8C616 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3218BEC151FF87300F8C616 /* InfoPlist.strings */; };
+		B3218C051520050700F8C616 /* CCMenuItemBMFont.ccbPlugNode in Copy PlugIns */ = {isa = PBXBuildFile; fileRef = B3218BFC151FF92E00F8C616 /* CCMenuItemBMFont.ccbPlugNode */; };
+		B3218C061520058900F8C616 /* CCBPProperties.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3218BE9151FF87300F8C616 /* CCBPProperties.plist */; };
 		E325F64514F531F500D29BCF /* InspectorFloatVar.xib in Resources */ = {isa = PBXBuildFile; fileRef = E325F64414F531F500D29BCF /* InspectorFloatVar.xib */; };
 		E325F64814F5336E00D29BCF /* InspectorFloatVar.m in Sources */ = {isa = PBXBuildFile; fileRef = E325F64714F5336E00D29BCF /* InspectorFloatVar.m */; };
 		E325F64A14F53FD000D29BCF /* InspectorColor4FVar.xib in Resources */ = {isa = PBXBuildFile; fileRef = E325F64914F53FD000D29BCF /* InspectorColor4FVar.xib */; };
@@ -348,6 +362,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		B3218BD2151F08F000F8C616 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7789ABB5133AA82000CEFCC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3218BC6151F089800F8C616;
+			remoteInfo = CCMenuItemFont;
+		};
+		B3218C01151FF9A500F8C616 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7789ABB5133AA82000CEFCC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3218BF2151FF92E00F8C616;
+			remoteInfo = CCMenuItemBMFont;
+		};
 		E325F66814F6611300D29BCF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7789ABB5133AA82000CEFCC7 /* Project object */;
@@ -473,6 +501,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				B3218C051520050700F8C616 /* CCMenuItemBMFont.ccbPlugNode in Copy PlugIns */,
+				B3218BD4151F091D00F8C616 /* CCMenuItemFont.ccbPlugNode in Copy PlugIns */,
 				E3C65124151BB8DF00D639C0 /* CCControl.ccbPlugNode in Copy PlugIns */,
 				E3B84C48151A2C93004B743C /* CCControlButton.ccbPlugNode in Copy PlugIns */,
 				E35392851518D81000471721 /* CCScale9Sprite.ccbPlugNode in Copy PlugIns */,
@@ -832,6 +862,19 @@
 		A0F17A2015116B4100CE6E92 /* utlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utlist.h; sourceTree = "<group>"; };
 		A0F17A2115116B4100CE6E92 /* ZipUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipUtils.h; sourceTree = "<group>"; };
 		A0F17A2215116B4100CE6E92 /* ZipUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZipUtils.m; sourceTree = "<group>"; };
+		B3218BBD151EFA5800F8C616 /* CCBPProperties.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CCBPProperties.plist; sourceTree = "<group>"; };
+		B3218BBE151EFA5800F8C616 /* CCMenuItemFont-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CCMenuItemFont-Info.plist"; sourceTree = "<group>"; };
+		B3218BBF151EFA5800F8C616 /* CCMenuItemFont-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCMenuItemFont-Prefix.pch"; sourceTree = "<group>"; };
+		B3218BC1151EFA5800F8C616 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3218BD0151F089800F8C616 /* CCMenuItemFont.ccbPlugNode */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCMenuItemFont.ccbPlugNode; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3218BDA151F0D6B00F8C616 /* CCBPProperties.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = CCBPProperties.plist; path = CCMenuItemFont/CCBPProperties.plist; sourceTree = "<group>"; };
+		B3218BDB151F0D6B00F8C616 /* CCMenuItemFont-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CCMenuItemFont-Info.plist"; path = "CCMenuItemFont/CCMenuItemFont-Info.plist"; sourceTree = "<group>"; };
+		B3218BDF151F0DBC00F8C616 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = CCMenuItemFont/en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3218BE9151FF87300F8C616 /* CCBPProperties.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CCBPProperties.plist; sourceTree = "<group>"; };
+		B3218BEA151FF87300F8C616 /* CCMenuItemBMFont-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CCMenuItemBMFont-Info.plist"; sourceTree = "<group>"; };
+		B3218BEB151FF87300F8C616 /* CCMenuItemBMFont-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCMenuItemBMFont-Prefix.pch"; sourceTree = "<group>"; };
+		B3218BED151FF87300F8C616 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3218BFC151FF92E00F8C616 /* CCMenuItemBMFont.ccbPlugNode */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCMenuItemBMFont.ccbPlugNode; sourceTree = BUILT_PRODUCTS_DIR; };
 		E325F64414F531F500D29BCF /* InspectorFloatVar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InspectorFloatVar.xib; sourceTree = "<group>"; };
 		E325F64614F5336E00D29BCF /* InspectorFloatVar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InspectorFloatVar.h; sourceTree = "<group>"; };
 		E325F64714F5336E00D29BCF /* InspectorFloatVar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InspectorFloatVar.m; sourceTree = "<group>"; };
@@ -1090,6 +1133,22 @@
 				7789ABE8133AB10500CEFCC7 /* ApplicationServices.framework in Frameworks */,
 				7789ABC3133AA82000CEFCC7 /* Cocoa.framework in Frameworks */,
 				E33BC1971510B8D0009AE29A /* Sparkle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3218BC8151F089800F8C616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3218BC9151F089800F8C616 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3218BF4151FF92E00F8C616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3218BF5151FF92E00F8C616 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1402,6 +1461,9 @@
 		7789ABB3133AA82000CEFCC7 = {
 			isa = PBXGroup;
 			children = (
+				B3218BDE151F0DBC00F8C616 /* InfoPlist.strings */,
+				B3218BDA151F0D6B00F8C616 /* CCBPProperties.plist */,
+				B3218BDB151F0D6B00F8C616 /* CCMenuItemFont-Info.plist */,
 				E3D59118150F50D1004180CA /* AUTHORS */,
 				E395DC7D1511FDF70075979E /* CHANGELOG */,
 				E3D59119150F50D1004180CA /* LICENSE_CocosBuilder.txt */,
@@ -1437,6 +1499,8 @@
 				E35392771518D78D00471721 /* CCScale9Sprite.ccbPlugNode */,
 				E3B84C39151A2C02004B743C /* CCControlButton.ccbPlugNode */,
 				E3C65116151BB89500D639C0 /* CCControl.ccbPlugNode */,
+				B3218BD0151F089800F8C616 /* CCMenuItemFont.ccbPlugNode */,
+				B3218BFC151FF92E00F8C616 /* CCMenuItemBMFont.ccbPlugNode */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1888,6 +1952,44 @@
 			path = Support;
 			sourceTree = "<group>";
 		};
+		B3218BBC151EFA5800F8C616 /* CCMenuItemFont */ = {
+			isa = PBXGroup;
+			children = (
+				B3218BE5151FF82D00F8C616 /* Supporting Files */,
+			);
+			path = CCMenuItemFont;
+			sourceTree = "<group>";
+		};
+		B3218BE5151FF82D00F8C616 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3218BBD151EFA5800F8C616 /* CCBPProperties.plist */,
+				B3218BBE151EFA5800F8C616 /* CCMenuItemFont-Info.plist */,
+				B3218BBF151EFA5800F8C616 /* CCMenuItemFont-Prefix.pch */,
+				B3218BC0151EFA5800F8C616 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3218BE8151FF87200F8C616 /* CCMenuItemBMFont */ = {
+			isa = PBXGroup;
+			children = (
+				B3218BF1151FF87D00F8C616 /* Supporting Files */,
+			);
+			path = CCMenuItemBMFont;
+			sourceTree = "<group>";
+		};
+		B3218BF1151FF87D00F8C616 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3218BE9151FF87300F8C616 /* CCBPProperties.plist */,
+				B3218BEA151FF87300F8C616 /* CCMenuItemBMFont-Info.plist */,
+				B3218BEB151FF87300F8C616 /* CCMenuItemBMFont-Prefix.pch */,
+				B3218BEC151FF87300F8C616 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		E325F65C14F65C8E00D29BCF /* CCMenuItemImage */ = {
 			isa = PBXGroup;
 			children = (
@@ -1918,8 +2020,10 @@
 				E35DBB9A14F244BC0070A6E4 /* CCLayerGradient */,
 				E35DBBAF14F2781D0070A6E4 /* CCMenu */,
 				E35DBBCE14F2AA360070A6E4 /* CCLabelBMFont */,
+				B3218BE8151FF87200F8C616 /* CCMenuItemBMFont */,
 				E35DBBEB14F3E2390070A6E4 /* CCLabelTTF */,
 				E35DBC0B14F4D72B0070A6E4 /* CCParticleSystem */,
+				B3218BBC151EFA5800F8C616 /* CCMenuItemFont */,
 				E325F65C14F65C8E00D29BCF /* CCMenuItemImage */,
 			);
 			name = Core;
@@ -2441,6 +2545,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				B3218C02151FF9A500F8C616 /* PBXTargetDependency */,
+				B3218BD3151F08F000F8C616 /* PBXTargetDependency */,
 				E398C02F14FB82090078E771 /* PBXTargetDependency */,
 				E3B7AED314E31AEF00DFD402 /* PBXTargetDependency */,
 				E3C365F814E9E4DD007CD5FF /* PBXTargetDependency */,
@@ -2461,6 +2567,40 @@
 			productName = ccBuilder;
 			productReference = 7789ABBE133AA82000CEFCC7 /* CocosBuilder.app */;
 			productType = "com.apple.product-type.application";
+		};
+		B3218BC6151F089800F8C616 /* CCMenuItemFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3218BCD151F089800F8C616 /* Build configuration list for PBXNativeTarget "CCMenuItemFont" */;
+			buildPhases = (
+				B3218BC7151F089800F8C616 /* Sources */,
+				B3218BC8151F089800F8C616 /* Frameworks */,
+				B3218BCA151F089800F8C616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCMenuItemFont;
+			productName = CCMenuItemImage;
+			productReference = B3218BD0151F089800F8C616 /* CCMenuItemFont.ccbPlugNode */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B3218BF2151FF92E00F8C616 /* CCMenuItemBMFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3218BF9151FF92E00F8C616 /* Build configuration list for PBXNativeTarget "CCMenuItemBMFont" */;
+			buildPhases = (
+				B3218BF3151FF92E00F8C616 /* Sources */,
+				B3218BF4151FF92E00F8C616 /* Frameworks */,
+				B3218BF6151FF92E00F8C616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCMenuItemBMFont;
+			productName = CCMenuItemImage;
+			productReference = B3218BFC151FF92E00F8C616 /* CCMenuItemBMFont.ccbPlugNode */;
+			productType = "com.apple.product-type.bundle";
 		};
 		E325F65914F65C8E00D29BCF /* CCMenuItemImage */ = {
 			isa = PBXNativeTarget;
@@ -2748,6 +2888,8 @@
 				E35DBBE814F3E2390070A6E4 /* CCLabelTTF */,
 				E35DBC0814F4D72B0070A6E4 /* CCParticleSystem */,
 				E325F65914F65C8E00D29BCF /* CCMenuItemImage */,
+				B3218BC6151F089800F8C616 /* CCMenuItemFont */,
+				B3218BF2151FF92E00F8C616 /* CCMenuItemBMFont */,
 				E3D59120150F5367004180CA /* CCBFile */,
 				E35392761518D78D00471721 /* CCScale9Sprite */,
 				E3C65115151BB89500D639C0 /* CCControl */,
@@ -2850,6 +2992,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B3218BCA151F089800F8C616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3218BE0151F0DBC00F8C616 /* InfoPlist.strings in Resources */,
+				B3218BDC151F0D6C00F8C616 /* CCBPProperties.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3218BF6151FF92E00F8C616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3218C061520058900F8C616 /* CCBPProperties.plist in Resources */,
+				B3218C00151FF96200F8C616 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E325F65814F65C8E00D29BCF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2936,6 +3096,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E398C02914FB81A30078E771 /* InfoPlist.strings in Resources */,
+				B3218BC2151EFA5800F8C616 /* CCBPProperties.plist in Resources */,
+				B3218BC3151EFA5800F8C616 /* CCMenuItemFont-Info.plist in Resources */,
+				B3218BC4151EFA5800F8C616 /* InfoPlist.strings in Resources */,
+				B3218BEE151FF87300F8C616 /* CCBPProperties.plist in Resources */,
+				B3218BEF151FF87300F8C616 /* CCMenuItemBMFont-Info.plist in Resources */,
+				B3218BF0151FF87300F8C616 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3191,6 +3357,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B3218BC7151F089800F8C616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3218BF3151FF92E00F8C616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E325F65614F65C8E00D29BCF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3304,6 +3484,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		B3218BD3151F08F000F8C616 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3218BC6151F089800F8C616 /* CCMenuItemFont */;
+			targetProxy = B3218BD2151F08F000F8C616 /* PBXContainerItemProxy */;
+		};
+		B3218C02151FF9A500F8C616 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3218BF2151FF92E00F8C616 /* CCMenuItemBMFont */;
+			targetProxy = B3218C01151FF9A500F8C616 /* PBXContainerItemProxy */;
+		};
 		E325F66914F6611300D29BCF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E325F65914F65C8E00D29BCF /* CCMenuItemImage */;
@@ -3404,6 +3594,30 @@
 				7789ABD8133AA82000CEFCC7 /* en */,
 			);
 			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		B3218BC0151EFA5800F8C616 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3218BC1151EFA5800F8C616 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B3218BDE151F0DBC00F8C616 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3218BDF151F0DBC00F8C616 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B3218BEC151FF87300F8C616 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3218BED151FF87300F8C616 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 		E325F65F14F65C8F00D29BCF /* InfoPlist.strings */ = {
@@ -3612,6 +3826,106 @@
 				INFOPLIST_FILE = "ccBuilder/CocosBuilder-Info.plist";
 				PRODUCT_NAME = CocosBuilder;
 				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B3218BCE151F089800F8C616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CCMenuItemFont/CCMenuItemFont-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				INFOPLIST_FILE = "CCMenuItemFont/CCMenuItemFont-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = CCMenuItemFont;
+				WRAPPER_EXTENSION = ccbPlugNode;
+			};
+			name = Debug;
+		};
+		B3218BCF151F089800F8C616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CCMenuItemFont/CCMenuItemFont-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				INFOPLIST_FILE = "CCMenuItemFont/CCMenuItemFont-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = CCMenuItemFont;
+				WRAPPER_EXTENSION = ccbPlugNode;
+			};
+			name = Release;
+		};
+		B3218BFA151FF92E00F8C616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CCMenuItemBMFont/CCMenuItemBMFont-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				INFOPLIST_FILE = "CCMenuItemBMFont/CCMenuItemBMFont-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = CCMenuItemBMFont;
+				WRAPPER_EXTENSION = ccbPlugNode;
+			};
+			name = Debug;
+		};
+		B3218BFB151FF92E00F8C616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CCMenuItemBMFont/CCMenuItemBMFont-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				INFOPLIST_FILE = "CCMenuItemBMFont/CCMenuItemBMFont-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = CCMenuItemBMFont;
+				WRAPPER_EXTENSION = ccbPlugNode;
 			};
 			name = Release;
 		};
@@ -4388,6 +4702,24 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		B3218BCD151F089800F8C616 /* Build configuration list for PBXNativeTarget "CCMenuItemFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3218BCE151F089800F8C616 /* Debug */,
+				B3218BCF151F089800F8C616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3218BF9151FF92E00F8C616 /* Build configuration list for PBXNativeTarget "CCMenuItemBMFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3218BFA151FF92E00F8C616 /* Debug */,
+				B3218BFB151FF92E00F8C616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E325F66314F65C8F00D29BCF /* Build configuration list for PBXNativeTarget "CCMenuItemImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -4512,6 +4844,7 @@
 				E3C65121151BB89600D639C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3D5912A150F5367004180CA /* Build configuration list for PBXNativeTarget "CCBFile" */ = {
 			isa = XCConfigurationList;

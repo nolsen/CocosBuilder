@@ -51,6 +51,7 @@
     self.exportPlugIn = NULL;
     self.lastEditedProperty = NULL;
     [fileName release];
+    fileName = NULL;
     self.docData = NULL;
     self.undoManager = NULL;
     [super dealloc];
@@ -67,10 +68,11 @@
 }
 
 - (void) setFileName:(NSString *)fn
-{
+{    
     // Set new filename
-    [fileName release];
+    NSString* oldFileName = fileName;
     fileName = [fn retain];
+    [oldFileName release];
     
     // Check for project file
     NSString* projPath = [[fileName stringByDeletingLastPathComponent] stringByAppendingPathComponent:@"Project.ccbproj"];

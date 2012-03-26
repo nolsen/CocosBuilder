@@ -682,6 +682,8 @@
 {
     if ([node.parent isKindOfClass:[CCMenuItemImage class]]) return;
     if ([node.parent isKindOfClass:[CCLabelBMFont class]]) return;
+    if ([node.parent isKindOfClass:[CCMenuItemFont class]]) return;
+    if ([node.parent isKindOfClass:[CCMenuItemBMFont class]]) return;
     
     NSString* indent = @"";
     for (int i = 0; i < level; i++) indent = [indent stringByAppendingString:@"-"];
@@ -697,7 +699,9 @@
 {
     if ([node.parent isKindOfClass:[CCMenuItemImage class]]) return;
     if ([node.parent isKindOfClass:[CCLabelBMFont class]]) return;
-    
+    if ([node.parent isKindOfClass:[CCMenuItemFont class]]) return;
+    if ([node.parent isKindOfClass:[CCMenuItemBMFont class]]) return;
+
     NSString* indent = @"";
     for (int i = 0; i < level; i++) indent = [indent stringByAppendingString:@"-"];
     

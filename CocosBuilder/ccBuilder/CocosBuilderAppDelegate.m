@@ -836,7 +836,8 @@
 - (void) saveFile:(NSString*) fileName
 {
     // Add to recent list of opened documents
-    [[NSDocumentController sharedDocumentController] noteNewRecentDocumentURL:[NSURL fileURLWithPath:fileName]];
+    NSURL* fileUrl = [NSURL fileURLWithPath:fileName];
+    [[NSDocumentController sharedDocumentController] noteNewRecentDocumentURL:fileUrl];
     
     NSMutableDictionary* doc = [self docDataFromCurrentNodeGraph];
      

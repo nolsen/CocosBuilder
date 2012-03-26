@@ -13,6 +13,8 @@
 	<key>requireChildClass</key>
 	<array>
 		<string>CCMenuItemImage</string>
+		<string>CCMenuItemFont</string>
+		<string>CCMenuItemBMFont</string>
 	</array>
 	<key>properties</key>
 	<array/>

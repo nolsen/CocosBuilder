@@ -134,7 +134,9 @@
     
     if (![node isKindOfClass:[CCSprite class]] &&
         ![node isKindOfClass:[CCMenuItemImage class]] &&
-        ![node isKindOfClass:[CCLabelBMFont class]])
+        ![node isKindOfClass:[CCLabelBMFont class]] &&
+        ![node isKindOfClass:[CCMenuItemFont class]] &&
+        ![node isKindOfClass:[CCMenuItemBMFont class]])
     {
         node.contentSize = [CCBReaderInternalV1 sizeValFromDict:props forKey:@"contentSize"];
     }
@@ -225,6 +227,15 @@
     [CCBReaderInternalV1 setExtraProp:[props objectForKey:@"spriteFileNormal"] forKey:@"spriteFileNormal" andNode:node];
     [CCBReaderInternalV1 setExtraProp:[props objectForKey:@"spriteFileSelected"] forKey:@"spriteFileSelected" andNode:node];
     [CCBReaderInternalV1 setExtraProp:[props objectForKey:@"spriteFileDisabled"] forKey:@"spriteFileDisabled" andNode:node];
+}
+
++ (void) setPropsForMenuItemFont: (CCMenuItemFont*) node props:(NSDictionary*)props {
+    [CCBReaderInternalV1 setExtraProp:[props objectForKey:@"fontName"] forKey:@"fontName" andNode:node];
+    [CCBReaderInternalV1 setExtraProp:[props objectForKey:@"fontSize"] forKey:@"fontSize" andNode:node];
+}
+
++ (void) setPropsForMenuItemBMFont: (CCMenuItemBMFont*) node props:(NSDictionary*)props {
+    [CCBReaderInternalV1 setExtraProp:[props objectForKey:@"fontName"] forKey:@"fntFile" andNode:node];    
 }
 
 + (void) setPropsForLabelBMFont: (CCLabelBMFont*) node props:(NSDictionary*)props
@@ -354,6 +365,20 @@
         [CCBReaderInternalV1 setPropsForNode:node props:props];
         [CCBReaderInternalV1 setPropsForMenuItem:(CCMenuItem*)node props:props];
         [CCBReaderInternalV1 setPropsForMenuItemImage:(CCMenuItemImage*)node props:props];
+    }
+    else if ([class isEqualToString:@"CCMenuItemFont"])
+    {
+        node = [[PlugInManager sharedManager] createDefaultNodeOfType:@"CCMenuItemFont"];
+        [CCBReaderInternalV1 setPropsForNode:node props:props];
+        [CCBReaderInternalV1 setPropsForMenuItemFont:(CCMenuItemFont*)node props:props];
+        [CCBReaderInternalV1 setPropsForSprite:(CCMenuItemFont*)node props:props];
+    }
+    else if ([class isEqualToString:@"CCMenuItemBMFont"])
+    {
+        node = [[PlugInManager sharedManager] createDefaultNodeOfType:@"CCMenuItemBMFont"];
+        [CCBReaderInternalV1 setPropsForNode:node props:props];
+        [CCBReaderInternalV1 setPropsForMenuItemFont:(CCMenuItemBMFont*)node props:props];
+        [CCBReaderInternalV1 setPropsForSprite:(CCMenuItemBMFont*)node props:props];
     }
     else if ([class isEqualToString:@"CCMenu"])
     {
